@@ -20,16 +20,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alec Goodman</title>
     <link rel="stylesheet" href="css/stylesheet.css" />
+
+    <meta name="description" content="My portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@AlecGoodman12">
+    <meta name="twitter:title" content="My Personal Webpage">
+    <meta name="twitter:description" content="This is my personal website for Digital Product Management. Enjoy!">
+    <meta name="twitter:image" content="./favicon-32x32.png">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My Personal Webpage">
+    <meta property="og:description" content="This is my personal website for Digital Product Management. Enjoy!">
+    <meta property="og:image" content="https://1drv.ms/i/s!Ar6P2iitfRFIgo55W8BOK2D_E7EatQ">
+    <meta property="og:url" content="https://alecgoodmanwebsite.me">
+    <meta property="og:site_name" content="My portfolio">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:alt" content="Picture of myself">
+    <meta property="twitter:image:alt" content="Picture of myself">
+
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
   </head>
   <body class="wrapper">
     <header><h1>Alec Goodman</h1></header>
     <img src="./flrd.jpg" width="150" height="300" alt="Florida"/>
     <nav>
-      <a href="./resume.html"> Resume </a>
-      <a href="https://github.com/aleccgoodman"> Github </a><br>
-        alecgoodman@gmail.com<br>
+      <a href="./resume.html"> Resume </a><br>
+      <a href="https://github.com/aleccgoodman">
+          <img src="GH.png" width="100" alt="GitHub"> </a><br>
+              alecgoodman@gmail.com<br>
         <a href="https://www.linkedin.com/in/alec-goodman/"> 
-            <img src="LI.png" alt="LinkedIn">
+            <img src="LI.png" width="50" alt="LinkedIn"> </a>
     </nav>
     <main>
       <h2>About Alec</h2>
@@ -74,12 +99,54 @@
           <td>7</td>
         </tr>
       </table>
+
+      <head>
+        <title>jacobswansen22.me</title>
+        <script>
+          function acceptCookies() {
+            // set cookie
+            document.cookie = "accepted=true; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+            // hide popup
+            document.getElementById("cookie-popup").style.display = "none";
+          }
+      
+          window.onload = function() {
+            // check if cookie is already set
+            if (document.cookie.indexOf("accepted=true") === -1) {
+              // show popup
+              document.getElementById("cookie-popup").style.display = "block";
+            }
+          };
+        </script>
+        <style>
+          #cookie-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+          }
+        </style>
+      </head>
+      <body>
+        <!-- Cookie Popup -->
+        <div id="cookie-popup">
+          <p>This website uses cookies to ensure you get the best experience on our website. 
+          <button onclick="acceptCookies()">Accept</button>
+        </div>
+    
       <p>&nbsp;</p>
 
       <img src="./school.jpg" width="200" alt="School"/>
 
       <p>&nbsp;</p>
     </main>
-    <footer>&copy; Alec Goodman, 2023</footer>
+    <footer>&copy; Alec Goodman, 2023 <br>
+      <a href="./privacy-policy.html">Privacy Policy</a><br>
+      <a href="./terms.html">Terms and Conditions</a><br>
+    </footer>
   </body>
 </html>
